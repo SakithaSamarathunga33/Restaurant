@@ -132,13 +132,13 @@ const GallerySection = () => {
                     <div className="flex gap-4">
                         <button
                             onClick={scrollLeft}
-                            className="w-12 h-12 border border-gray-600 flex items-center justify-center hover:bg-white hover:text-black transition-colors cursor-pointer"
+                            className="w-12 h-12 border border-gray-600 flex items-center justify-center hover:bg-white hover:text-black transition-colors cursor-pointer rounded-[50px]"
                         >
                             ←
                         </button>
                         <button
                             onClick={scrollRight}
-                            className="w-12 h-12 border border-gray-600 flex items-center justify-center hover:bg-white hover:text-black transition-colors cursor-pointer"
+                            className="w-12 h-12 border border-gray-600 flex items-center justify-center hover:bg-white hover:text-black transition-colors cursor-pointer rounded-[50px]"
                         >
                             →
                         </button>
