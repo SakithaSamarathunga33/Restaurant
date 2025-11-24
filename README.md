@@ -1,4 +1,4 @@
-# 🍴 The Culinary Corner - Restaurant Website
+# 🍴 TRIDENT - Restaurant Website
 
 <div align="center">
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -19,7 +19,7 @@
 
 ## 📋 Overview
 
-The Culinary Corner is a modern, premium restaurant website built with Next.js 16, featuring stunning animations powered by GSAP and buttery-smooth scrolling with Lenis. The website showcases a sophisticated dining experience with a dark, elegant design system centered around black, white, and signature red (`#CB3A1A`) accents.
+TRIDENT is a modern, premium restaurant website built with Next.js 16, featuring stunning animations powered by GSAP and buttery-smooth scrolling with Lenis. The website showcases a sophisticated dining experience with a dark, elegant design system centered around black, white, and signature red (`#CB3A1A`) accents.
 
 ## ✨ Features
 
@@ -242,5 +242,5 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 <div align="center">
   <p>Made with ❤️ and ☕</p>
-  <p>© 2024 The Culinary Corner. All rights reserved.</p>
+  <p>© 2024 TRIDENT. All rights reserved.</p>
 </div>
