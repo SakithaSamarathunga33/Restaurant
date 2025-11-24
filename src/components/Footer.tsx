@@ -42,6 +42,7 @@ const Footer = () => {
             scrollTrigger: {
                 trigger: footerRef.current,
                 start: "top 90%",
+                toggleActions: "play none none reverse"
             },
             y: 50,
             opacity: 0,

@@ -66,6 +66,7 @@ const TestimonialsSection = () => {
             scrollTrigger: {
                 trigger: sectionRef.current,
                 start: "top 80%",
+                toggleActions: "play none none reverse"
             },
             y: 50,
             opacity: 0,
@@ -77,6 +78,7 @@ const TestimonialsSection = () => {
             scrollTrigger: {
                 trigger: sectionRef.current,
                 start: "top 70%",
+                toggleActions: "play none none reverse"
             },
             y: 50,
             opacity: 0,

@@ -36,11 +36,24 @@ export default function Home() {
         ease: "back.out(1.7)"
       }, "-=0.5");
 
+    // Hero Parallax
+    gsap.to(".hero-bg", {
+      scrollTrigger: {
+        trigger: ".hero-section",
+        start: "top top",
+        end: "bottom top",
+        scrub: true
+      },
+      y: 200,
+      ease: "none"
+    });
+
     // Welcome Section Animation
     gsap.from(".welcome-image", {
       scrollTrigger: {
         trigger: ".welcome-section",
         start: "top 80%",
+        toggleActions: "play none none reverse"
       },
       x: -100,
       opacity: 0,
@@ -52,6 +65,7 @@ export default function Home() {
       scrollTrigger: {
         trigger: ".welcome-section",
         start: "top 80%",
+        toggleActions: "play none none reverse"
       },
       x: 100,
       opacity: 0,
@@ -65,6 +79,7 @@ export default function Home() {
       scrollTrigger: {
         trigger: ".services-section",
         start: "top 80%",
+        toggleActions: "play none none reverse"
       },
       y: 50,
       opacity: 0,
@@ -76,6 +91,7 @@ export default function Home() {
       scrollTrigger: {
         trigger: ".services-section",
         start: "top 70%",
+        toggleActions: "play none none reverse"
       },
       y: 100,
       opacity: 0,
@@ -91,9 +107,9 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <div className="relative h-screen w-full overflow-hidden">
+      <div className="hero-section relative h-screen w-full overflow-hidden">
         {/* Background Image */}
-        <div className="absolute inset-0">
+        <div className="hero-bg absolute inset-0">
           <Image
             src="/images/hero-bg.jpg"
             alt="Japanese traditional salad"
