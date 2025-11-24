@@ -38,10 +38,9 @@ const Navbar = () => {
                 </div>
                 <div className="hidden md:block">
                     <div className="flex items-baseline space-x-8">
-                        <Link href="#" className="hover:text-gray-300 text-xs font-medium transition-colors duration-200 uppercase tracking-wide">Home</Link>
-                        <Link href="#" className="hover:text-gray-300 text-xs font-medium transition-colors duration-200 uppercase tracking-wide">Properties</Link>
+                        <Link href="/" className="hover:text-gray-300 text-xs font-medium transition-colors duration-200 uppercase tracking-wide">Home</Link>
                         <Link href="#" className="hover:text-gray-300 text-xs font-medium transition-colors duration-200 uppercase tracking-wide">Blogs</Link>
-                        <Link href="#" className="hover:text-gray-300 text-xs font-medium transition-colors duration-200 uppercase tracking-wide">About Us</Link>
+                        <Link href="/about" className="hover:text-gray-300 text-xs font-medium transition-colors duration-200 uppercase tracking-wide">About Us</Link>
                         <Link href="#" className="hover:text-gray-300 text-xs font-medium transition-colors duration-200 uppercase tracking-wide">Contact</Link>
                     </div>
                 </div>
