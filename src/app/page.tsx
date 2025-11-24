@@ -7,6 +7,7 @@ import GallerySection from "@/components/GallerySection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -128,7 +129,9 @@ export default function Home() {
             Experience the rich aroma and exquisite taste of our carefully selected coffee beans, crafted with passion.
           </p>
           <div className="hero-button">
-            <Button>EXPLORE MENU</Button>
+            <Link href="#gallery">
+              <Button>EXPLORE MENU</Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -225,7 +228,9 @@ export default function Home() {
       </section>
 
       {/* Gallery Section */}
-      <GallerySection />
+      <div id="gallery">
+        <GallerySection />
+      </div>
 
       {/* Testimonials Section */}
       <TestimonialsSection />
